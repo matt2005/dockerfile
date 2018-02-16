@@ -9,7 +9,7 @@ RUN set xe- \
 	&& mkdir /app \
 	&& cd /app \ 
 	&& apk add --no-cache git \
-	&& git clone https://github.com/myanaloglife/py-kms.git \
+	&& git clone https://github.com/matt2005/py-kms.git \
 	&& apk del git 
 
 EXPOSE 1688
